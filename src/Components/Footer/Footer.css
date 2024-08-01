@@ -1,0 +1,109 @@
+footer {
+  background-color: #070707;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+  position: relative;
+  padding-top: 7rem;
+  line-height: 2;
+  width: 80%;
+  font-family: "montserrat-light", sans-serif;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.container .fdesc {
+  padding-top: 2rem;
+  padding-left: 7rem;
+}
+
+.container .fdesc img {
+  height: 2rem;
+}
+
+.container .fdesc p {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+}
+
+.container .fsubsc {
+  padding-top: 2rem;
+}
+
+.container .fsubsc h5 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.container .fsubsc p {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+}
+
+.container .sform form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(102, 102, 102);
+  font-size: 1rem;
+  background-color: #000;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.container .sform i {
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+}
+
+.container .sform button {
+  padding: 1.3rem 2rem 1.3rem 2rem;
+  background-color: #39b54a;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-left: 5rem;
+  text-transform: uppercase;
+}
+
+.flast {
+  display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+font-size: 1.3rem;
+padding-top: 5rem;
+padding-bottom: 5rem;
+color: rgb(102, 102, 102);
+}
+
+.flast .fcopy {
+  padding-right: 1rem;
+}
+
+.flast .fsite {
+  padding-left: 1rem;
+}
+
+.flast .vl {
+  border-left: .5px solid rgb(102, 102, 102);
+  height: 2vh;
+
+}
+
+.flast a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.flast a:hover {
+  color: #39b54a;
+
+}

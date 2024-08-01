@@ -1,0 +1,60 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.services hr {
+  height: 1px;
+  width: 30%;
+  margin: auto;
+}
+
+.services-container .text {
+  color: #39b54a;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.services-container h1 {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 3rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.services-container .rows {
+  display: grid; 
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.services-container .row {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 70%;
+  margin: auto;
+}
+
+.services-container .row i {
+  height: 4rem;
+  width: 4rem;
+  color: #39b54a;
+}
+
+.services-container .rows h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.services-container p {
+  font-size: 1.5rem;
+  color: #757575;
+}

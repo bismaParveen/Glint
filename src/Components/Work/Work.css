@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.work-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 9rem;
+  background-color: black;
+  width: 100%;
+  position: relative;
+}
+
+.work {
+  color: #fff;
+}
+
+.work-container .text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #39b54a;
+  text-align: center;
+}
+
+.work-container h2 {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 3rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.work-container hr {
+  height: 1px;
+  width: 40%;
+  margin: auto;
+  color: grey;
+}
+
+.work-container .rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 4rem;
+  position: relative;
+}
+
+.work-container .rows h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.work-container .rows p {
+  font-size: 1rem;
+  color: gray;
+}
+
+.work-container .img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  background-color: black;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.work-container .heading {
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+}
+
+.work-container .img:hover {
+  opacity: 0.8;
+  transform: scale(1);
+}
+
+.work-container .img .icon {
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+}
+
+.work-container .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 2rem;
+  border: 1px solid white;
+}
+
+.work-container .fa-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
