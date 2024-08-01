@@ -50,7 +50,7 @@ body {
 .right-icons {
   height: 50vh;
   margin-top: 18rem;
-  /* position: absolute; */
+  position: absolute;
   flex-direction: column;
   justify-content: flex-end;
   align-items: end;
