@@ -23,6 +23,68 @@ const Home = () => {
           </button>
         </a>
       </div>
+      <div className="right-icons d-flex">
+                <a
+                  href="https://www.facebook.com/"
+                  className="facebook"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="icon-name">
+                    <i className="icon fa-brands fa-facebook-f">
+                      <span>facebook</span>
+                    </i>
+                  </div>
+                </a>
+                <a
+                  href="https://twitter.com/"
+                  className="twitter"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="icon-name">
+                    <i className="icon fa-brands fa-twitter">
+                      <span>twitter</span>
+                    </i>
+                  </div>
+                </a>
+                <a
+                  href="https://instagram.com/"
+                  className="instagram"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="icon-name">
+                    <i className="icon fa-brands fa-instagram">
+                      <span>instagram</span>
+                    </i>
+                  </div>
+                </a>
+                <a
+                  href="https://behance.com/"
+                  className="behance"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="icon-name">
+                    <i className="icon fa-brands fa-behance">
+                      <span>behance</span>
+                    </i>
+                  </div>
+                </a>
+                <a
+                  href="https://dribble.com/"
+                  className="dribble"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="icon-name">
+                    <i className="icon fa-solid fa-basketball">
+                      <span>dribble</span>
+                    </i>
+                  </div>
+                </a>
+              </div>
       </section>
   );
 };

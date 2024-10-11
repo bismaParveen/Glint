@@ -1,11 +1,11 @@
 import React from "react";
 import "../Work/Work.css";
-import Lady from "../img/lady.png";
-import Woodcraft from "../img/woodcraft.jpg";
-import Beetle from "../img/beetle.jpg";
-import Green from "../img/green.jpg";
-import Guitarist from "../img/guitarist.jpg";
-import Palmeira from "../img/palmeira.jpg";
+import Lady from "../Images/lady.png";
+import Woodcraft from "../Images/woodcraft.jpg";
+import Beetle from "../Images/beetle.jpg";
+import Green from "../Images/green.jpg";
+import Guitarist from "../Images/guitarist.jpg";
+import Palmeira from "../Images/palmeira.jpg";
 
 const Work = () => {
   return (

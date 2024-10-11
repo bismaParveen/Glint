@@ -11,7 +11,7 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="flex">
+   <>
       <Navbar />
       <Home />
       <About />
@@ -20,7 +20,7 @@ function App() {
       <Clients/>
       <Contact/>
       <Footer/>
-    </div>
+      </>
   );
 }
 

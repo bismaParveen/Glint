@@ -1,23 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "montserrat-medium", sans-serif;
-}
-
-body {
+.header {
+  position: fixed;
+  z-index: 1;
+  background-color: transparent;
   width: 100%;
 }
 
-.header {
+.header-content {
   display: flex;
   justify-content: space-between;
-  background: url(../img/img1.jpg) no-repeat center center/cover;
-  height: 140vh;
-  position: relative;
+  align-items: center;
+  padding-top: 2rem; 
+  padding-bottom: 2rem;
 }
 
 .header-logo {
-  padding-top: 2.5rem;
+  /* padding-top: 2.5rem; */
   padding-left: 2.5rem;
 }
 
@@ -26,84 +23,33 @@ body {
   cursor: pointer;
 }
 
-.header-menu {
+.header-menu{
   cursor: pointer;
-}
-
-.header-menu .header-toggle-menu {
-  display: flex;
-  gap: 0.8rem;
-  padding-top: 2rem;
   padding-right: 2.5rem;
   position: fixed;
-  float: right;
   right: 0;
   z-index: 1;
-}
-
-.header-menu .menu-name {
-  color: rgb(3, 172, 3);
-  font-size: 1.2rem;
   letter-spacing: 3px;
-  padding-top: 0.2rem;
-}
-
-.right-icons {
-  height: 50vh;
-  margin-top: 18rem;
-  position: absolute;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: end;
-  right: 0;
-}
-
-.right-icons a {
-  width: 80%;
-  padding: 1rem;
-  padding-right: 4rem;
 
 }
 
-.right-icons .icon-name i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.1rem;
-  height: 2.8rem;
-  width: 2.8rem;
-  border-radius: 2rem;
-  border: 3px solid white;
-  color: white;
-}
-
-.right-icons .icon-name span{
-  margin-right: 4rem;
-  position: absolute;
-  color: #39b54a;
-  font-size: 1.2rem;
- opacity: 0;
-  transition: 0.6s ease-in-out;
-  width: fit-content;
-}
-
-.right-icons .icon-name span:hover {
-  opacity: 1;
-  transform: translateX(-50%);
+.header-menu span{
+  color: rgb(3, 172, 3);
+  font-size: 1rem;
+margin: 0rem .5rem 1rem;
 }
 
 .nav-container {
   padding-right: 3rem;
   width: 18%;
-
 }
 
 .nav-container .nav_menu {
+  top: 0;
   background-color: rgb(22, 22, 22);
   position: fixed;
-  height: 100vh;
+  /* height: 100vh; */
   z-index: 1;
-
 }
 
 .navbar {

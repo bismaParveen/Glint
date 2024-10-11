@@ -1,17 +1,17 @@
 import "../Clients/Clients.css";
 import Slider from "react-slick";
 import React from "react";
-import Apple from "../img/apple.png";
-import Atom from "../img/atom.png";
-import Black from "../img/black.png";
-import Dropbox from "../img/dropbox.png";
-import Envato from "../img/envato.png";
-import Firefox from "../img/firefox.png";
-import Joomla from "../img/joomla.png";
-import Magneto from "../img/magento.png";
-import User1 from "../img/user-01.jpg";
-import User2 from "../img/user-02.jpg";
-import User3 from "../img/user-03.jpg";
+import Apple from "../Images/apple.png";
+import Atom from "../Images/atom.png";
+import Black from "../Images/black.png";
+import Dropbox from "../Images/dropbox.png";
+import Envato from "../Images/envato.png";
+import Firefox from "../Images/firefox.png";
+import Joomla from "../Images/joomla.png";
+import Magneto from "../Images/magento.png";
+import User1 from "../Images/user-01.jpg";
+import User2 from "../Images/user-02.jpg";
+import User3 from "../Images/user-03.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
