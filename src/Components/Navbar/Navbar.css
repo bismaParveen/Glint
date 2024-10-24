@@ -1,20 +1,19 @@
 .header {
-  position: fixed;
   z-index: 1;
-  background-color: transparent;
   width: 100%;
+  top: 0;
+  position: absolute;
 }
 
 .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2rem; 
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
 .header-logo {
-  /* padding-top: 2.5rem; */
   padding-left: 2.5rem;
 }
 
@@ -23,20 +22,22 @@
   cursor: pointer;
 }
 
-.header-menu{
+.header-menu {
+  display: flex;
+  align-items: center;
+  text-align: center;
   cursor: pointer;
   padding-right: 2.5rem;
-  position: fixed;
   right: 0;
-  z-index: 1;
   letter-spacing: 3px;
-
+  position: fixed;
+  z-index: 1;
 }
 
-.header-menu span{
+.header-menu .text-center {
   color: rgb(3, 172, 3);
   font-size: 1rem;
-margin: 0rem .5rem 1rem;
+  margin: 0.5rem;
 }
 
 .nav-container {
@@ -48,8 +49,8 @@ margin: 0rem .5rem 1rem;
   top: 0;
   background-color: rgb(22, 22, 22);
   position: fixed;
-  /* height: 100vh; */
   z-index: 1;
+  height: 100vh;
 }
 
 .navbar {
@@ -106,7 +107,7 @@ margin: 0rem .5rem 1rem;
   color: white;
 }
 
-.arrow {
+/* .arrow {
   align-items: center;
   justify-content: center;
   height: 3rem;
@@ -116,4 +117,4 @@ margin: 0rem .5rem 1rem;
   float: right;
   font-size: 1.3rem;
   margin-left: 8rem;
-}
+} */

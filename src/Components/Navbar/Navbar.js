@@ -20,9 +20,9 @@ function Navbar() {
               onClick={() => setShowNav(true)}
               title="open"
             >
-                  <span className="text-center">MENU</span>
-                  <i className="fa-solid fa-bars text-white fa-2x"></i>
-               
+              <span className="text-center fa-1x">MENU
+              </span>
+              <i className="fa-solid fa-bars text-white fa-2x"></i>
             </div>
 
             {showNav ? (
@@ -118,9 +118,9 @@ function Navbar() {
                         <i className="fa-solid fa-basketball"></i>
                       </a>
                     </div>
-                    <div className="arrow d-flex">
+                    {/* <div  className="arrow d-flex">
                       <i className="fa-solid fa-arrow-up"></i>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </nav>
